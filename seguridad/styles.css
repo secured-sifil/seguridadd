@@ -1,0 +1,66 @@
+.contenedor{
+
+      display: inline-block;
+    position: relative;
+    text-shadow: 0 2px 14px white;
+    font-size: 2.125rem;
+    line-height: 1;
+    font-weight: 500;
+        font: 400 normal 1.125rem/1.35 "segoe","Segoe UI",Arial,sans-serif
+        text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 45%;
+    margin-top: 20%;
+}
+.contenedorr{
+
+  display: inline-block;
+position: relative;
+text-shadow: 0 2px 14px white;
+font-size: 2.125rem;
+line-height: 1;
+font-weight: 500;
+    font: 400 normal 1.125rem/1.35 "segoe","Segoe UI",Arial,sans-serif
+    text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+margin-left: 29%;
+margin-top: 20%;
+}
+.carga{
+
+ background-color:#C7E0F4;
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ transition: all 1s ease;
+ z-index: 10000;
+ top: 0;
+ left: 0;
+
+ }
+ .carg{
+  border:15px solid #ccc;
+  border-top-color: #0078d4 ;
+  /*border-right-color: #0078d4 ;
+  border-bottom-color: #0078d4 ;
+  border-left-color: #0078d4 ;*/
+  border-top-style: groove; 
+  /*border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;*/
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  animation: girar 1.5s linear infinite;
+ }
+ @keyframes girar {
+  from{ transform: rotate(0deg); }
+  to {transform: rotate(360deg);}
+ }
